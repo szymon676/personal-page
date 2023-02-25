@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .nav-item {
+    @apply text-gray-400 hover:text-white transition-colors duration-150 cursor-pointer;
+  }
+  .hero-btn {
+    @apply text-zinc-200 text-xl mt-2 hover:text-white transition-colors duration-150;
+  }
+  .skill {
+    @apply text-white bg-gradient-to-br from-zinc-800 to-neutral-900 w-32 h-12 flex justify-center items-center rounded-xl;
+  }
+}
