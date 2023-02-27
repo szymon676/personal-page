@@ -25,10 +25,8 @@ export const About = () => {
         </div>
       </div>
       <div className="px-14 pb-12 md:w-[400px] md:h-[300px] md:p-0  bg-gradient-to-br from-black to-zinc-900 rounded-lg">
-        <h4 className="text-2xl  text-white mt-6 md:ml-8 shadow-sm">Skills</h4>
+        <h4 className="text-2xl  text-white mt-8 md:ml-8 shadow-sm">Skills</h4>
         <ul className="flex flex-wrap gap-3 items-center justify-center mt-2">
-          <li className="skill">HTML & CSS</li>
-          <li className="skill">Javascript</li>
           <li className="skill">Next.js</li>
           <li className="skill">Tailwind CSS</li>
           <li className="skill">Golang</li>

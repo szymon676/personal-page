@@ -10,6 +10,7 @@ export const Hero = () => {
         viewport={{ once: true }}
     className="flex flex-col justify-center items-center h-screen">
       <BgCircles />
+      
       <img
         className="h-48 w-48 mx-auto relative object-cover rounded-full
             "
