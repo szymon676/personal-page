@@ -11,8 +11,8 @@ export const Projects = () => {
         className="h-screen flex flex-col justify-center items-center">
             <h6 className="text-3xl md:text-6xl text-gray-200 uppercase tracking-[8px] mb-32">Projects</h6>
             
-            <div className="flex justify-around gap-12">
-                <ProjectCard title="Crispy-barnacle" description="Aplication to communicate with your friend via chat rooms." devStack={["Golang", "PostgreSQL","sockets"]} repo="https://github.com/szymon676/crispy-barnacle" />
+            <div className="flex justify-items-stretch gap-12">
+                <ProjectCard title="Desk managment system" description="Aplication where you can book desk for specific period of time (In development)." devStack={["Golang"]} repo="https://github.com/szymon676/desk-managment" />
                 <ProjectCard title="Restaurant Managment" description="Restaurant managment microservices project." devStack={["Golang","PostgreSQL"]} repo="https://github.com/szymon676/restaurant-managment" />
                 <ProjectCard title="Jobguru" description="Jobguru is a web application that allows employers to post job openings and job seekers to search for and apply to jobs." devStack={["Golang","PostgreSQL"]} repo="https://github.com/szymon676/finance-tracker" />
             </div>
