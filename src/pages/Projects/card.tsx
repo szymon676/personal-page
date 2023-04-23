@@ -7,7 +7,7 @@ type ProjectCardProps = {
 
 export const ProjectCard = ({ title, description, devStack, repo }: ProjectCardProps) => {
     return (
-        <div className="md:w-[400px] pb-8 bg-gradient-to-br from-black to-zinc-900  rounded-xl"> 
+        <div className="w-[300px] pb-8 bg-gradient-to-br from-black to-zinc-900  rounded-xl"> 
             <h5 className="text-3xl mt-6 text-white ml-8 font-bold uppercase">{title}</h5>
             <p className=" ml-8 mt-8 text-lg text-gray-300">{description}</p>
             <ul className="flex justify-center gap-6 mt-8 flex-wrap">
