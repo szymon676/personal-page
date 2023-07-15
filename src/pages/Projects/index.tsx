@@ -17,15 +17,9 @@ export const Projects = () => {
       <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 w-full px-4">
         <ProjectCard
           title="CodeHund"
-          description="Aplication where you can post, comment and like posts"
+          description="Social media Aplication where you can post, comment and like posts"
           devStack={["Golang", "gRPC", "MongoDB", "Docker"]}
           repo="https://github.com/CodeHund/posts-ms"
-        />
-        <ProjectCard
-          title="Restaurant Managment"
-          description="Restaurant managment microservices project."
-          devStack={["Golang", "PostgreSQL"]}
-          repo="https://github.com/szymon676/restaurant-managment"
         />
         <ProjectCard
           title="Jobguru"
@@ -36,7 +30,7 @@ export const Projects = () => {
         <ProjectCard
           title="ogcommerce"
           description="ogcommerce is a api that provides casual ecommerce site functionality."
-          devStack={["Golang", "PostgreSQL","Docker"]}
+          devStack={["Golang", "MongoDB","Docker"]}
           repo="https://github.com/szymon676/ogcommerce"
         />
       </div>
